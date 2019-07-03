@@ -18,25 +18,37 @@
             <li>
                 <img src="./font/marvel.png" alt="logo">
             </li>
-            <!-- <li>HOME</li> -->
-            <li>HERO</li>
+            <li id="li_btn">
+                HERO
+                <ul id="nav_two" class=" nav_two">
+                    <li class="animated zoomIn " id="thor">雷神</li>
+                    <li class="animated zoomIn " id="ironman">钢铁侠</li>
+                    <li class="animated zoomIn " id="hulk">浩克</li>
+                    <li class="animated zoomIn " id="widow">黑寡妇</li>
+                </ul>
+            </li>
             <li>FILM</li>
             <li>ABOUT</li>
         </ul>
-        <div class="ironman">
-            <img class="animated rollIn" src="./img/one.png" alt="钢铁侠">
+        <div  class="con">
+            <div id="section" class="ironman animated rollIn">
+                <img src="./img/one.png" alt="钢铁侠" />
+            </div>
+            <div id="thor" class="thor animated rollIn">
+                <img src="./img/two.png" alt="雷神" />
+            </div>
+            <div id="hulk" class="hulk animated rollIn">
+                <img src="./img/three.png" alt="浩克" />
+            </div>
+            <div id="widow" class="widow animated rollIn">
+                <img src="./img/four.png" alt="黑寡妇" />
+            </div>
         </div>
-        <div id="two" class="thor">
-            <img class="animated rollIn" src="./img/two.png" alt="雷神">
-        </div>
-        <div class="hulk">
-            <img class="animated rollIn" src="./img/three.png" alt="浩克">
-        </div>
-        <div class="widow">
-            <img class="animated rollIn" src="./img/four.png" alt="黑寡妇">
-        </div>
+
     </div>
-    <script src="./js/hero.js"></script>
 </body>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="./js/hero.js"></script>
+
 
 </html>
