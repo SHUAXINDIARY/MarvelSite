@@ -14,13 +14,22 @@ body .box {
   width: 100%;
   color: #fff;
 }
+body .box .back_top {
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+}
+body .box .back_top .icon-fanhuidingbu3 {
+  font-size: 50px;
+}
 body .box .nav {
   z-index: 999;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
-  position: absolute;
+  position: fixed;
   top: 1.5%;
+  font-weight: bolder;
 }
 body .box .nav > li {
   display: inline-block;
@@ -38,7 +47,7 @@ body .box .nav > li:hover {
 }
 body .box .nav .nav_two {
   display: none;
-  color: lightblue;
+  color: lightgray;
   font-size: 15px;
 }
 body .box .nav .nav_two li {
