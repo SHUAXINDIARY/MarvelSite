@@ -2,12 +2,13 @@
 静态网页练习
 
 
-## 技术栈:
+## 技术栈+框架(库):
     1.HTML(5)
     2.CSS(3)
     3.jQuery
     4.animate.css动画库
     5.iconfont
+    6.EJS(用在film界面)
 
 ## 环境搭建:gulp 
     1.编译less
