@@ -27,7 +27,7 @@ body .box .back_top .icon-fanhuidingbu3 {
 }
 body .box .nav {
   z-index: 999;
-  width: 100%;
+  width: 50%;
   display: flex;
   justify-content: space-evenly;
   position: absolute;
