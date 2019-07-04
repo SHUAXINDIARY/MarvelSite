@@ -13,6 +13,7 @@ body img {
 body .box {
   width: 100%;
   color: #fff;
+  position: relative;
 }
 body .box .back_top {
   cursor: pointer;
@@ -55,4 +56,9 @@ body .box .nav .nav_two li {
 }
 body .box .nav .nav_two li:hover {
   font-size: 20px;
+}
+body .box .con .hulk,
+body .box .con .thor,
+body .box .con .widow {
+  display: none;
 }
