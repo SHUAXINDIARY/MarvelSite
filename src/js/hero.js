@@ -34,15 +34,11 @@ $(function () {
             $('html,body').animate({ scrollTop: dom.section.innerHeight() * 0 }, 500);
         },
         showCon(name) {
-            name.css({
-                'display': 'block'
-            });
+            name.show();
         },
         hideCon(name) {
-            name.css({
-                'display': 'none'
-            });
-        }
+           name.hide();
+        },
     };
     // 展开二级菜单
     dom.li_btn.hover(function () {
@@ -60,11 +56,13 @@ $(function () {
     });
     dom.global.scroll(function (e) {
         console.log($(window).scrollTop());
+        // 显示返回顶部按钮
+        dom.global.scrollTop() > 0 ? feature.showCon(dom.back_top) : feature.hideCon(dom.back_top);
         // 显示雷神区域
         dom.global.scrollTop() > 30 ? feature.showCon(dom.thor) : feature.hideCon(dom.thor);
         // 显示浩克区域
-        dom.global.scrollTop() > dom.section.innerHeight() * 1.1 ? feature.showCon(dom.hulk) : feature.hideCon(dom.hulk);
+        dom.global.scrollTop() > dom.section.innerHeight() ? feature.showCon(dom.hulk) : feature.hideCon(dom.hulk);
         // 显示黑寡妇区域
-        dom.global.scrollTop() > dom.section.innerHeight() * 1.8? feature.showCon(dom.widow) : feature.hideCon(dom.widow);
+        dom.global.scrollTop() > dom.section.innerHeight() * 1.5 ? feature.showCon(dom.widow) : feature.hideCon(dom.widow);
     })
 });
