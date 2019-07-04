@@ -32,5 +32,21 @@
     2.在项目根目录中执行gulp start启动gulp将less转换成css
     3.因为是练习项目，所以没有配置压缩代码等优化工作
 
+
 ## 页面素材
     [站酷](https://www.zcool.com.cn/work/ZMzQ4MjMwODA=.html)
+
+## 总结
+    1.jQuery的animate方法对display无效，可以使用opacity
+    2.for循环遍历对象时取值不是 obj.键名 ， 是 obj[键名]
+        例子
+        ```javascript
+         let num={
+             one:1,
+             two:2
+         };
+         for(let i in num){
+             console.log('打印键'+i);
+             console.log('打印值'+num[i]);
+         }
+        ```
