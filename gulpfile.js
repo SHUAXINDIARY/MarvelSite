@@ -7,7 +7,7 @@ gulp.task('clean', function (done) {
 });
 // 编译less
 gulp.task('less', function (done) {
-    gulp.src('src/less/*.less')
+    gulp.src(['src/less/*.less','!src/less/global.less'])
         .pipe(less())
         .pipe(gulp.dest('src/css'));
     done();

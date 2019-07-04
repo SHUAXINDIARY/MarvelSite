@@ -1,16 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>电影</title>
-    <link rel="stylesheet" href="./css/film.css">
+    <title>FILM</title>
+    <link rel="icon" href="./font/marvel.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./assets/animate.css">
     <link rel="stylesheet" href="./assets/reset.css">
+    <link rel="stylesheet" href="./css/film.css">
+
 </head>
+
 <body>
-    <div class="one">
+    <div class="box">
+        <ul class="animated lightSpeedIn nav">
+            <li>
+                <a href="hero.html">
+                    <img src="./font/marvel.png" alt="logo">
+                </a>
+            </li>
+            <li id="li_btn">
+                <a href="hero.html">
+                    HERO
+                </a>
+                <ul id="nav_two" class=" nav_two">
+                    <li class="animated zoomIn " id="thor">Thor</li>
+                    <li class="animated zoomIn " id="hulk">Hulk</li>
+                    <li class="animated zoomIn " id="widow">Widow</li>
+                </ul>
+            </li>
+            <li>
+                <a href="film.html">
+                    FILM
+                </a>
+            </li>
+        </ul>
+        <div class="con">
+            <ul id="one" class="animated zoomIn" >
+                <li>
+                    <img src="./img/ironman1.jpg" alt="海报">
+                    <span>钢铁侠</span>
+                </li>
+                <li>
+                    <img src="./img/spider1.jpg" alt='海报'>
+                    <span>蜘蛛侠</span> </li>
+                <li>
+                    <img src="./img/thor1.jpg" alt='海报'>
+                    <span>雷神</span> </li>
+                <li>
+                    <img src="./img/avengers1.jpg" alt='海报'>
+                    <span>复仇者联盟</span> </li>
+            </ul>
+            <ul id="two" class="animated zoomIn">
+                <li>
+                    <img src="./img/captain1.jpg" alt="海报">
+                    <span>美国队长</span> </li>
+                <li>
+                    <img src="./img/galaxy1.jpg" alt="海报">
+                    <span>银河拯救队</span> </li>
+                <li>
+                    <img src="./img/deadpool.jpg" alt="海报">
+                    <span>死侍</span> </li>
+                <li>
+                    <img src="./img/ant1.jpg" alt="海报">
+                    <span>蚁人</span> </li>
+            </ul>
+        </div>
+
     </div>
-    <div class="two"></div>
+
 </body>
+<script src="../node_modules/jquery/dist/jquery.js"></script>
+<script src="./js/film.js"></script>
+
 </html>
