@@ -40,7 +40,6 @@
     1.jQuery的animate方法对display无效，可以使用opacity
     2.for循环遍历对象时取值不是 obj.键名 ， 是 obj[键名]
         例子
-        ```javascript
          let num={
              one:1,
              two:2
@@ -48,5 +47,4 @@
          for(let i in num){
              console.log('打印键'+i);
              console.log('打印值'+num[i]);
-         }
-        ```
+         };
