@@ -1,10 +1,11 @@
 # MarvelSite
 静态网页练习
-    1.手写轮播图
-    2.动画过渡
-    3.JS弹窗
 
-# [在线演示](https://shuaxindiary.github.io/MarvelSite/index.html)
+-------------------
+
+## [在线演示](https://shuaxindiary.github.io/MarvelSite/index.html)
+
+--------------------
 
 ## 技术栈+框架(库):
     1.HTML(5)
