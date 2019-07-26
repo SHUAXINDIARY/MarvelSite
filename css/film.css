@@ -1,0 +1,119 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #0e100f;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body .nav {
+  z-index: 999;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 1.5%;
+  font-weight: bolder;
+}
+body .nav > li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+body .nav > li img {
+  width: 50%;
+}
+body .nav > li:nth-child(1) {
+  font-size: 25px;
+}
+body .nav > li:hover {
+  cursor: pointer;
+  font-size: 25px;
+}
+body .nav .nav_two {
+  display: none;
+  color: lightgray;
+  font-size: 15px;
+}
+body .nav .nav_two li {
+  height: 50px;
+}
+body .nav .nav_two li:hover {
+  font-size: 20px;
+}
+body {
+  color: #ffffff;
+}
+body .con {
+  position: relative;
+  margin: 200px auto;
+}
+body .con ul {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 150px;
+}
+body .con ul li {
+  z-index: 999;
+  display: inline-block;
+  width: 285px;
+  height: 460px;
+  text-align: center;
+  font-weight: bolder;
+  padding: 10px;
+  cursor: pointer;
+}
+body .con ul li:hover {
+  color: #000000;
+  background-color: #ffffff;
+  transform: scale(1.1);
+  transition: background-color 1.5s, color 1.5s, transform 0.5s;
+}
+body .con ul li:hover span {
+  color: #000000;
+}
+body .con ul li img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+body .con ul li span {
+  color: #ffffff;
+}
+body .con .pop {
+  display: none;
+  width: 80%;
+  z-index: 999;
+  background-color: #000000;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+}
+body .con .pop span:nth-child(1) {
+  cursor: pointer;
+  position: absolute;
+  right: 25px;
+  top: 25px;
+}
+body .con .pop li {
+  margin: 50px;
+}
+body .con .pop li:hover {
+  transform: scale(1.1);
+  transition: background-color 1.5s, color 1.5s, transform 0.5s;
+}
+body .con .pop li:hover span {
+  color: #000000;
+}
+body .con .pop li img {
+  width: 100%;
+}
+body .con .pop li span {
+  color: #000000;
+}

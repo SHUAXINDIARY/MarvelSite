@@ -1,0 +1,73 @@
+body {
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  background-color: #0e100f;
+}
+body a {
+  color: #fff;
+  text-decoration: none;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+body .nav {
+  z-index: 999;
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  position: absolute;
+  top: 1.5%;
+  font-weight: bolder;
+}
+body .nav > li {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  text-align: center;
+}
+body .nav > li img {
+  width: 50%;
+}
+body .nav > li:nth-child(1) {
+  font-size: 25px;
+}
+body .nav > li:hover {
+  cursor: pointer;
+  font-size: 25px;
+}
+body .nav .nav_two {
+  display: none;
+  color: lightgray;
+  font-size: 15px;
+}
+body .nav .nav_two li {
+  height: 50px;
+}
+body .nav .nav_two li:hover {
+  font-size: 20px;
+}
+body img {
+  width: 100%;
+}
+body .box {
+  width: 100%;
+  color: #fff;
+  position: relative;
+}
+body .box .back_top {
+  display: none;
+  cursor: pointer;
+  position: fixed;
+  right: 20px;
+  top: 300px;
+}
+body .box .back_top .icon-fanhuidingbu3 {
+  font-size: 50px;
+}
+body .box .con .hulk,
+body .box .con .thor,
+body .box .con .widow {
+  display: none;
+}
