@@ -13,7 +13,6 @@
     3.jQuery
     4.animate.css动画库
     5.iconfont
-    6.swiper
 
 ## 环境搭建:gulp 
     1.编译less
